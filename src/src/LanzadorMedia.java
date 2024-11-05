@@ -26,10 +26,10 @@ public class LanzadorMedia {
 			
 			n=sc.nextInt();
 			while(n!=0) {
-				n=sc.nextInt();
 				pw.println(n);
+				n=sc.nextInt();
 			}
-			pw.println("0");
+			//pw.println("0");
 			
 			pw.close();
 			osw.close();
