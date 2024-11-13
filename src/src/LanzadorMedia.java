@@ -15,7 +15,6 @@ public class LanzadorMedia {
 			OutputStream os;
 			OutputStreamWriter osw;
 			PrintWriter pw;
-			
 			String linea;
 			
 			int n;
