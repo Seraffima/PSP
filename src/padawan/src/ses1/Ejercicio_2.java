@@ -1,8 +1,10 @@
+package ses1;
+
 public class Ejercicio_2 {
     public static void main(String[] args) {
         double m =23;
         double n = 12;
-        double resultado = 0;
+        double resultado;
         resultado = m + n;
         System.out.println(resultado);
         resultado -= 10;

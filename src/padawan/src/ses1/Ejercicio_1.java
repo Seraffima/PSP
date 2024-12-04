@@ -1,3 +1,5 @@
+package ses1;
+
 public class Ejercicio_1 {
     public static void main(String[] args) {
         final double dolar = 1.137;
