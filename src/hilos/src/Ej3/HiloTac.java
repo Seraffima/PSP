@@ -1,9 +1,9 @@
-package reloj;
+package Ej3;
 
-public class HiloTic extends Thread {
+public class HiloTac extends Thread {
     public void run() {
         do {
-            System.out.println("Tic");
+            System.out.println("Tac");
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {

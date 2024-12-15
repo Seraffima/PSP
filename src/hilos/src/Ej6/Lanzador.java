@@ -1,4 +1,4 @@
-package hilosindependientes;
+package Ej6;
 
 public class Lanzador {
     public static void main(String[] args) {

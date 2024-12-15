@@ -1,8 +1,8 @@
-package hilcrunnable;
+package Ej2;
 
-public class HiloCR implements Runnable{
+public class HiloC extends Thread{
     private int c;
-    public HiloCR(int c){
+    public HiloC(int c){
         this.c = c;
         System.out.println("Creando hilo " + c);
     }

@@ -1,8 +1,8 @@
-package hiloc;
+package Ej4;
 
-public class HiloC extends Thread{
+public class HiloCR implements Runnable{
     private int c;
-    public HiloC(int c){
+    public HiloCR(int c){
         this.c = c;
         System.out.println("Creando hilo " + c);
     }

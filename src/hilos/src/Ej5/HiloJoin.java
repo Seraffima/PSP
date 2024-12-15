@@ -1,4 +1,4 @@
-package hilojoin;
+package Ej5;
 
 public class HiloJoin extends Thread {
     private int c;

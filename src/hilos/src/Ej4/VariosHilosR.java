@@ -1,4 +1,4 @@
-package hilcrunnable;
+package Ej4;
 
 public class VariosHilosR {
     public static void main(String[] args) {

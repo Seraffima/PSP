@@ -1,4 +1,4 @@
-package hilosindependientes;
+package Ej6;
 
 public class HiloInpar implements Runnable {
     public void run() {

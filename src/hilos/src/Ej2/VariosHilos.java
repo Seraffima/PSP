@@ -1,4 +1,4 @@
-package hiloc;
+package Ej2;
 
 public class VariosHilos {
     public static void main(String[] args) {
