@@ -1,4 +1,4 @@
-package dentrofuera;
+package Ej1;
 
 public class HiloFor extends Thread{
     public void run(){

@@ -1,4 +1,4 @@
-package reloj;
+package Ej3;
 
 import static java.lang.Thread.sleep;
 

@@ -1,4 +1,4 @@
-package hilosindependientes;
+package Ej6;
 
 public class HiloPar extends Thread{
     public void run(){

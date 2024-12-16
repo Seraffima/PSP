@@ -1,4 +1,4 @@
-package fichaje;
+package Ej8;
 
 import java.util.Scanner;
 

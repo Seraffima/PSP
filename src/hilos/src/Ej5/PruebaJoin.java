@@ -1,4 +1,4 @@
-package hilojoin;
+package Ej5;
 
 public class PruebaJoin {
     public static void main(String[] args) {

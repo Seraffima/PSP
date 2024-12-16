@@ -1,4 +1,4 @@
-package dentrofuera;
+package Ej1;
 
 public class DentroFuera {
     public static void main(String[] args) {

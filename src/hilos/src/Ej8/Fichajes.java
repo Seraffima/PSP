@@ -1,4 +1,4 @@
-package fichaje;
+package Ej8;
 
 public class Fichajes {
     public static void main(String[] args) {
