@@ -7,7 +7,7 @@ public class EstacionesMain {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese la estación del año: ");
         String estacion = sc.nextLine();
-        Estacion estacion1 = new Estacion("Primavera");
+        Estacion estacion1 = new Estacion(estacion);
         Thread hiloEstacion = new Thread(estacion1);
         hiloEstacion.start();
     }
