@@ -4,10 +4,10 @@ public class Contador {
 	private int contador = 0;
 
 	 //Sin monitor, tenemos errores de concurrencia
-	 public void agrega(){
+	 public synchronized void agrega(){
 	 contador++;
 	 }
-	 public int getContador() {
+	 public synchronized int getContador() {
 		return contador;
 	}
 	/**
