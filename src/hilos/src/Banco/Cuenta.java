@@ -12,16 +12,17 @@ public class Cuenta {
         return saldo;
     }
 
-    public void comprobar(double cantidad) {
+       synchronized public boolean comprobar(double cantidad) {
         if (saldo < cantidad) {
             System.out.println("Saldo insuficiente.");
-            return;
+            return false;
         }else{
             System.out.println("Saldo suficiente.");
+            return true;
         }
     }
 
-    public void retirar(double cantidad) {
+      synchronized  public void retirar(double cantidad) {
         saldo -= cantidad;
     }
 }
