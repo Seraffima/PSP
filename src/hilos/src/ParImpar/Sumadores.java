@@ -13,8 +13,8 @@ public class Sumadores extends Thread {
         while (contador.getContador() < contador.getMax()) {
             if (par) {
                 if (contador.getContador() % 2 == 0) {
-                    contador.incrementar();
                     System.out.println("Sumador par: " + contador.getContador());
+                    contador.incrementar();
                     try {
                         sleep(100);
                     } catch (InterruptedException e) {
@@ -23,8 +23,8 @@ public class Sumadores extends Thread {
                 }
             }else{
                 if (contador.getContador() % 2 != 0) {
-                    contador.incrementar();
                     System.out.println("Sumador impar: " + contador.getContador());
+                    contador.incrementar();
                     try {
                         sleep(100);
                     } catch (InterruptedException e) {
